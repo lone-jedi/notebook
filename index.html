@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Notebook</title>
+</head>
+<body>
+    <form action="#" id="editArea">
+        <input type="text" name="title" id="title" placeholder="Название заметки">
+        <em id="note-edit-id"></em>
+        <textarea name="text" id="text" placeholder="Введите сюда ваш текст..."></textarea>
+        <br><input type="button" value="Сохранить" id="save">
+        <input type="button" value="Новая заметка" id="new">
+    </form>
+    <ul class="items">
+        <!-- <li class="item">
+            <details>
+                <summary class="note-title">${note.title}</summary>
+                <em>Дата последнего изменения: <span class="note-date-change">${note.lastChange}</span></em><br>  
+                <em class="note-id">ID:${note.id}</em>
+                <div class="note-text">${note.text}</div>
+                <button class="edit">Редактировать</button>
+                <button class="remove">Удалить</button>
+                <br>
+            </details>
+        </li>  -->
+    </ul>
+    <script src="app.js"></script>
+</body>
+</html>
